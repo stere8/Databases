@@ -1,0 +1,40 @@
+I. Introduction
+
+For the purpose of learning and/or practicing :
+ *Django in Python
+ *and Entity Framework in C#
+ *PHP
+I am going to build three apps that are going to do the same functions with these three different techonologies.
+
+
+II.Overall Description:
+The way these 3 apps will work is that all wil be a student database.
+
+1.For starters it will be a page to add students to a database.(Adding to the created database)
+2.Then we will try to display the addeed students.(Viewing the components of the created database)
+3.And finally we will edit and delete the students.(Edit the database)
+
+II.1
+
+The primary components of the students information wil be 
+
+1. The ID
+2. The Name
+3. Surname
+4. Age
+5. Year
+6. Graduation Year
+
+II.2
+
+As you have noticed there are some basic information lacking on the first description like Course or Grade.
+This is because the Courses are fixed courses and Grades too there are not optional. There exists know ways of grading
+and the school has a known list of courses.
+So insteade of inputing them manualy which might create problems(such as is a student studies "international economics" and by mistakes
+they write "International Economy", there would be case problems and the -ies/-y problem.) That is why we will create a second table of
+known courses and another of known grades. Which will be done in a more advanced way after creating the first ones in an easy and 
+comprehensible way.
+
+More info will be found in the respective files containing each techonology.
+
+*****************************************************Less Words, More Codes*****************************************************************

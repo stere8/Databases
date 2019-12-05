@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}
+    Students Added!
+{% endblock %}
+{% block page_content %}
+    <h1>Student Successfully added</h1>
+    </div>
+    <div class="container">
+        <button><a   href="{% url 'add_student' %}" style="text-decoration: black">Add another</a></button>
+        <button ><a  href="{% url 'home' %}" style="text-decoration: black">Home</a></button>
+        <button><a   href="{% url 'all_students' %}" style="text-decoration: black">View all</a></button>
+    </div>
+{% endblock %}

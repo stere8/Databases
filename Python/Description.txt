@@ -1,0 +1,23 @@
+OK,
+This is my off-the-script django project-been doing tutorials only lately. So try to be a little understanding :)
+The general description was already given so let's dive right into it.
+To start we will need to define a few things
+
+1.The Student(Model):
+He will be one class(for the beginning), With a few attributes which are :
+
+1. The ID : int and pk
+2. The Name : charfield with max of 60
+3. Surname : charfield with max of 60
+4. Age : int
+5. Year : int
+6. Graduation Year : int
+
+See, easy peasy lemon squeezy :)
+
+2.Pages(View):
+To start, we will have the index taking us to a student adding page, 
+which will allow us to add those attributes.
+
+3.URLS:
+we will use a second url which will take us to adding students
